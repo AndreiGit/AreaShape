@@ -9,6 +9,6 @@
             Name = shapeName;
         }
 
-        public abstract float CalculateArea();
+        public abstract double CalculateArea();
     }
 }

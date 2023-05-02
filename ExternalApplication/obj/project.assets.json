@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "AreaShapeLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/AreaShapeLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AreaShapeLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "AreaShapeLibrary/1.0.0": {
+      "type": "project",
+      "path": "../AreaShapeLibrary/AreaShapeLibrary.csproj",
+      "msbuildProject": "../AreaShapeLibrary/AreaShapeLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "AreaShapeLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\User\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "G:\\ProjectsConsole\\AreaShape\\AreaShapeLibrary\\AreaShapeLibrary.csproj": {
+              "projectPath": "G:\\ProjectsConsole\\AreaShape\\AreaShapeLibrary\\AreaShapeLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

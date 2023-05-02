@@ -1,0 +1,12 @@
+G:\ProjectsConsole\AreaShape\AreaShapeLibrary\bin\Debug\net6.0\AreaShapeLibrary.deps.json
+G:\ProjectsConsole\AreaShape\AreaShapeLibrary\bin\Debug\net6.0\AreaShapeLibrary.dll
+G:\ProjectsConsole\AreaShape\AreaShapeLibrary\bin\Debug\net6.0\AreaShapeLibrary.pdb
+G:\ProjectsConsole\AreaShape\AreaShapeLibrary\obj\Debug\net6.0\AreaShapeLibrary.csproj.AssemblyReference.cache
+G:\ProjectsConsole\AreaShape\AreaShapeLibrary\obj\Debug\net6.0\AreaShapeLibrary.GeneratedMSBuildEditorConfig.editorconfig
+G:\ProjectsConsole\AreaShape\AreaShapeLibrary\obj\Debug\net6.0\AreaShapeLibrary.AssemblyInfoInputs.cache
+G:\ProjectsConsole\AreaShape\AreaShapeLibrary\obj\Debug\net6.0\AreaShapeLibrary.AssemblyInfo.cs
+G:\ProjectsConsole\AreaShape\AreaShapeLibrary\obj\Debug\net6.0\AreaShapeLibrary.csproj.CoreCompileInputs.cache
+G:\ProjectsConsole\AreaShape\AreaShapeLibrary\obj\Debug\net6.0\AreaShapeLibrary.dll
+G:\ProjectsConsole\AreaShape\AreaShapeLibrary\obj\Debug\net6.0\refint\AreaShapeLibrary.dll
+G:\ProjectsConsole\AreaShape\AreaShapeLibrary\obj\Debug\net6.0\AreaShapeLibrary.pdb
+G:\ProjectsConsole\AreaShape\AreaShapeLibrary\obj\Debug\net6.0\ref\AreaShapeLibrary.dll
