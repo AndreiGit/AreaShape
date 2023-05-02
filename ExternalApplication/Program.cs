@@ -1,5 +1,8 @@
 ﻿using AreaShapeLibrary;
 
-Circle circle = new("Круг_1", 5);
+Circle circle = new ("Круг_1", 5);
 
-Console.WriteLine($"Площадь круга: {circle.CalculateArea()}");
+Triangle triangle = new Triangle("Треугольник_1", 5,3,3);
+
+Console.WriteLine($"Площадь круга: {circle.CalculateArea()}, площадь треугольника: {triangle.CalculateArea()}");
+Console.WriteLine($"Прямоугольный: {triangle.IsStraightTriangle()}");
