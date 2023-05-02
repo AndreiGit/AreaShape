@@ -11,4 +11,10 @@
     <ProjectReference Include="..\AreaShapeLibrary\AreaShapeLibrary.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="AreaShapeLibrary">
+      <HintPath>..\AreaShapeLibrary\bin\Debug\net6.0\AreaShapeLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

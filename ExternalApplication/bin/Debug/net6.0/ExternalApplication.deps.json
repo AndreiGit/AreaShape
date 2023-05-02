@@ -8,15 +8,19 @@
     ".NETCoreApp,Version=v6.0": {
       "ExternalApplication/1.0.0": {
         "dependencies": {
-          "AreaShapeLibrary": "1.0.0"
+          "AreaShapeLibrary": "1.0.0",
+          "AreaShapeLibrary.Reference": "1.0.0.0"
         },
         "runtime": {
           "ExternalApplication.dll": {}
         }
       },
-      "AreaShapeLibrary/1.0.0": {
+      "AreaShapeLibrary.Reference/1.0.0.0": {
         "runtime": {
-          "AreaShapeLibrary.dll": {}
+          "AreaShapeLibrary.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -27,8 +31,8 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AreaShapeLibrary/1.0.0": {
-      "type": "project",
+    "AreaShapeLibrary.Reference/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
