@@ -1,0 +1,12 @@
+Решение задачи SQL задачи:
+По условию задачи в БД уже имеются продукты и категории.
+Предположим что они хранятся в отдельных таблицах. В каждой из таблиц имеется id и name.
+Создадим третью связующую таблицу ProductsCategory, которая содержит в себе Products_id и Category_id.
+Тогда запрос для вывода пар «Имя продукта – Имя категории», с выводом всех продуктов будет выглядеть следующим образом:
+
+USE shop
+SELECT prod.Name, cat.Name
+FROM Products prod LEFT JOIN ProductsCategory prodcat
+ON prod.Id = prodcat.Products_id
+LEFT JOIN Categorys cat 
+ON cat.Id = prodcat.Category_id
